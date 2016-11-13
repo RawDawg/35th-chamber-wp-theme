@@ -1,0 +1,1 @@
+!function(e){wp.customize("blogname",function(n){n.bind(function(n){e(".brand").text(n)})})}(jQuery),$("#user_login").attr("placeholder","Username"),$("#user_pass").attr("placeholder","Password");

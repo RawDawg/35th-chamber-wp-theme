@@ -1,5 +1,5 @@
 # 35th Chamber Wordpress theme
-## A simple theme to put the user login on a static frontpage.
+## A simple theme that puts the user login on a static frontpage
 
 Based on Sage [https://github.com/roots/sage](https://github.com/roots/sage)
 
@@ -8,7 +8,7 @@ Based on Sage [https://github.com/roots/sage](https://github.com/roots/sage)
 ### Installation
 * `$ npm install`  
 * `$ bower install`
- 
+
 Just create a blank page, choose the template „Login Page” and set it as your homepage.
 
 #### Available gulp commands
