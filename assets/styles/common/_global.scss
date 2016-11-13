@@ -1,0 +1,98 @@
+html {
+  height: 100vh;
+  background: url('../images/bg.jpg') rgba(0, 9, 35, 1);
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  background: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.wrap.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*** Form ***/
+
+.bt_loginForm {
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(0, 9, 35, 0.8);
+  text-align: center;
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  animation: fadein 1s;
+
+  .branding {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 40px;
+  }
+
+  label {
+    color: #ffffff;
+  }
+
+  a:link, a:visited {
+    color: #EE7F00;
+  }
+}
+
+input {
+  border-radius: 2px;
+  transition: all ease-in-out .2s;
+
+  &[type=text], &[type=password]{
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    background: rgba(255,255,255,.05);
+    color: #ffffff;
+
+    &:focus {
+      outline: none;
+      background: rgba(255,255,255,.1);
+    }
+  }
+
+  &[type=submit] {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    border: 0px rgba(0,0,0,0);
+    font-size: 17px;
+    text-decoration: none;
+    background: #EE7F00;
+    color: rgba(0, 9, 35, 1);
+
+    &:hover, &:active, &:focus {
+      background: #ad5c00;
+      outline: none;
+      color: #ffffff;
+    }
+  }
+}
+
+
+label[for=user_login], label[for=user_pass] {
+  display: none;
+  visibility: hidden;
+}
+
+p.login-submit {
+  margin-bottom: 0;
+}
+
+.copyright {
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid rgba(255,255,255,.05);
+}
