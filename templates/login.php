@@ -12,7 +12,7 @@
 
 	<!-- section -->
     <section class="bt_loginForm">
-      <img class="branding" src="http://cdn.bettertimes.de/images/icon-bettertimes.svg">
+      <img class="branding" src="https://cdn.bettertimes.de/images/icon-bettertimes.svg">
         <?php
             global $user_login;
 
@@ -58,7 +58,7 @@
                         'form_id'        => 'loginform',
                         'label_username' => __( 'Username' ),
                         'label_password' => __( 'Password' ),
-                        'label_remember' => __( 'Remember Me' ),
+                        'label_remember' => __( 'Angemeldet bleiben' ),
                         'label_log_in'   => __( 'Log In' ),
                         'id_username'    => 'user_login',
                         'id_password'    => 'user_pass',
@@ -74,6 +74,6 @@
 
                 endif;
         ?>
-        <div class="copyright">&copy; <?php echo date("Y"); ?> | <a href="http://www.bettertimes.de" title="Werbeagentur in Köln" target="_blank">Bettertimes</a></div>
+        <div class="copyright">&copy; <?php echo date("Y"); ?> | <a href="https://www.bettertimes.de" title="Werbeagentur in Köln" target="_blank">Bettertimes</a></div>
 	</section>
 	<!-- /section -->
